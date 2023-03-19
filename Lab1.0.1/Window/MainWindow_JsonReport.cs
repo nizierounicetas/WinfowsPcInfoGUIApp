@@ -65,7 +65,7 @@ namespace PC_info
             return antivirus;
         }
 
-        private async Task<Report.OS> GetAntivirusFromViewAsync()
+        private async Task<Report.OS> GetOSFromViewAsync()
         {
             string[] osStrings = OSInfoLbl.Text.Split('\n');
             Report.OS os = new Report.OS()
@@ -147,7 +147,7 @@ namespace PC_info
 
                                 report.Hardware_ = GetHardwareFromView();
                                 report.Antivirus_ = GetAntivirusFromView();
-                                report.OS_ = await GetAntivirusFromViewAsync();
+                                report.OS_ = await GetOSFromViewAsync();
                                 report.Firewall_ = GetFirewallFromView();
 
                                 string serializedReport = JsonConvert.SerializeObject(report, Formatting.Indented);
