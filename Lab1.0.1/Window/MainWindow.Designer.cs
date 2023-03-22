@@ -111,7 +111,7 @@
             this.tabControl.Controls.Add(this.OStab);
             this.tabControl.Location = new System.Drawing.Point(1, 63);
             this.tabControl.Name = "tabControl";
-            this.tabControl.SelectedIndex = 3;
+            this.tabControl.SelectedIndex = 1;
             this.tabControl.Size = new System.Drawing.Size(875, 429);
             this.tabControl.TabIndex = 0;
             this.tabControl.UseSelectable = true;
@@ -261,9 +261,9 @@
             this.CPUnumberOfCoreslbl.AutoSize = true;
             this.CPUnumberOfCoreslbl.Location = new System.Drawing.Point(17, 101);
             this.CPUnumberOfCoreslbl.Name = "CPUnumberOfCoreslbl";
-            this.CPUnumberOfCoreslbl.Size = new System.Drawing.Size(116, 19);
+            this.CPUnumberOfCoreslbl.Size = new System.Drawing.Size(162, 19);
             this.CPUnumberOfCoreslbl.TabIndex = 6;
-            this.CPUnumberOfCoreslbl.Text = "Number of cores: ";
+            this.CPUnumberOfCoreslbl.Text = "Number of cores(logical): ";
             // 
             // CPUnamelbl
             // 
@@ -325,7 +325,7 @@
             // AntivirusRefreshBttn
             // 
             this.AntivirusRefreshBttn.FontSize = MetroFramework.MetroButtonSize.Medium;
-            this.AntivirusRefreshBttn.Location = new System.Drawing.Point(18, 130);
+            this.AntivirusRefreshBttn.Location = new System.Drawing.Point(473, 40);
             this.AntivirusRefreshBttn.Name = "AntivirusRefreshBttn";
             this.AntivirusRefreshBttn.Size = new System.Drawing.Size(75, 23);
             this.AntivirusRefreshBttn.TabIndex = 6;

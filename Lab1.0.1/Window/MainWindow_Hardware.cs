@@ -34,7 +34,7 @@ namespace PC_info
             foreach (ManagementObject instance in instances)
             {
                 CPUnamelbl.Text = instance["Name"].ToString();
-                CPUnumberOfCoreslbl.Text = String.Format($"Number of cores: {instance["NumberOfCores"]}");
+                CPUnumberOfCoreslbl.Text = String.Format($"Number of cores(logical): {instance["NumberOfLogicalProcessors"]}");
             }
         }
 

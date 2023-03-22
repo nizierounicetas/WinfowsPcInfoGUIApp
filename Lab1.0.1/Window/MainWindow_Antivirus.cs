@@ -27,7 +27,7 @@ namespace PC_info
                 if (stateString != null)
                     AntivirusInfoLbl.Text += $" ({stateString})";
 
-                AntivirusInfoLbl.Text += $"\nGUID: {instance["instanceGuid"]}";
+                AntivirusInfoLbl.Text += $"\nGUID: {instance["instanceGuid"]}\n";
             }
 
         }
